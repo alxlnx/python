@@ -1,0 +1,17 @@
+/* Cascading style sheets */
+/* Ways to add to your code:
+отдельный css файл
+<style> </style>
+style в теге  (don't do it, make a class and then put in <style></style> instead.
+the latter overwrites the preceding
+*/
+h1, h2 {
+    text-align: center;
+}
+
+html *
+{
+   font-size: 1em !important;
+   color: #000 !important;
+   font-family: Arial !important;
+}
